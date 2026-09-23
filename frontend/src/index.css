@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f7fb;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  width: 350px;
+  padding: 35px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.switch {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+.switch span {
+  color: #2563eb;
+  cursor: pointer;
+  font-weight: bold;
+}
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  height: 100px;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  resize: none;
+}
+.analysis {
+  margin-top: 25px;
+  padding: 15px;
+  background: #f4f7fb;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.analysis h2 {
+  text-align: center;
+}
+
+.analysis pre {
+  white-space: pre-wrap;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.chat-section {
+  margin-top: 25px;
+  padding: 15px;
+  background: #f4f7fb;
+  border-radius: 8px;
+}
+
+.chat-section h2 {
+  margin-bottom: 15px;
+}
+
+.chat-response {
+  margin-top: 15px;
+  padding: 12px;
+  background: white;
+  border-radius: 6px;
+  text-align: left;
+}
+
+.chat-response p {
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+.progress-section {
+  margin-top: 20px;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.progress-section h3 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 20px;
+  background: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #4caf50;
+  transition: width 0.5s ease;
+}
+.tasks-section {
+  margin-top: 25px;
+  padding: 15px;
+  background: #f4f7fb;
+  border-radius: 8px;
+}
+
+.tasks-section h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.task-card {
+  margin-top: 15px;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.task-card h3 {
+  margin-top: 0;
+}
+
+.task-card button {
+  margin-top: 10px;
+}
